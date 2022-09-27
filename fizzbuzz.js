@@ -10,4 +10,10 @@ const fizzBuzz = (number) => {
   }
 }
 
-module.exports = fizzBuzz;
+const fizzbuzzUntil = (number) => {
+  for (let i = 1 ; i <= number ; i++ ) {
+    console.log(fizzBuzz(i))
+  }
+}
+
+// module.exports = fizzBuzz;
