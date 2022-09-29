@@ -4,14 +4,6 @@ class ShoppingBasket {
     this.discount = 0
   }
 
-  // getTotalPrice() {
-  //   let sum = 0;
-  //   this.items.forEach( (item) => {
-  //     sum += item.getPrice()
-  //   });
-  //   return sum;
-  // }
-
   addItem(item) {
     this.items.push(item);
   }
